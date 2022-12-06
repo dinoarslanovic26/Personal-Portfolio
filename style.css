@@ -109,6 +109,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 66%;
+    gap: 10px 30px;
 }
 
 .item-detail {
@@ -117,6 +118,7 @@ img {
     width: fit-content;
     margin: 12px;
     display: flex;
+    gap: 10px 30px;
 }
 
 .item-detail:hover {
@@ -127,6 +129,45 @@ img {
     border: 5px solid beige;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 10vw);
+    grid-gap: 15px;
+    margin-left: 30px;
+}
+.gallery-item {
+    position: relative;
+}
+
+.gallery-item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position: relative;
+}
+
+.gallery-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gallery-item-3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gallery-item-4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
 
 .bottom-left {
     position: absolute;
@@ -141,13 +182,16 @@ img {
     background-color: black;
 }
 
+
 .socials{
     align-content: space-between;
     justify-content: space-between;
     width: 80%;
+    gap: 20px;
 }
 
 .socials span{
+    gap: 10px;
     align-items: center;
     text-align: center;
     font-size: 40px;
