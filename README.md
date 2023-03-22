@@ -6,6 +6,6 @@ Deployed url: ![image](https://user-images.githubusercontent.com/117688172/21361
 
 ![Challenge 2](https://user-images.githubusercontent.com/117688172/205815616-bf0f104a-73d5-41e7-b54b-4110e4006334.png)
 
-This is now the updated version with my first project.
+This is now the updated version with my first and second project.
 
-![personal portfolio updated](https://user-images.githubusercontent.com/117688172/213612270-c526092a-7786-4057-b2c9-c07dcfc4a160.jpg)
+![portfolio2](https://user-images.githubusercontent.com/117688172/227063409-aac406e5-e38e-4b1d-afb6-80d02137f6c4.jpg)
